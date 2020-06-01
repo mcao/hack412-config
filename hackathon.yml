@@ -1,15 +1,15 @@
-name: RedPandaHacks
+name: Hack412
 version: I # Could also be a roman numeral or other number, will be concatenated with the hackathon name where necessary
-main_website: https://panda.hackumass.com
-dashboard_url: panda-dashboard.hackumass.com
+main_website: https://hack412.org/
+dashboard_url: dashboard.hack412.org
 logos:
   primary_path: PandaLogo.png
   nav_path: navlogo.png
 emails:
-  donotreply: donotreplytothepandas@hackumass.com
-  contact: pandas@hackumass.com
+  donotreply: noreply@hack412.org
+  contact: team@hack412.org
 slack:
-  subdomain: redpandahacks
+  subdomain: hack412
 applications:
   mode: 'open'
   # options: open, waitlist, or closed. defaults to closed.
@@ -17,23 +17,22 @@ applications:
   # flag is enabled.
 checkin:
   # Any participant with this email domain will be counted as from the host university
-  university_email_suffix: pandas.edu
-  university_name: UPandas
+  university_email_suffix: pitt.edu
+  university_name: UPitt
   university_name_checks:
-    - University of Pandas Amherst
-    - UPandas Amherst
-    - Pandas Amherst
-    - Pandas-Amherst
-    - Pandas at Amherst
-    - Pandas, Amherst
+    - University of Pittsburgh
+    - Pitt
+    - UofPittsburgh
+    - University of Pitt
+    - U of Pitt
 projects:
   public: true
-  hacking_begins: "Oct 18, 2019 24:00:00"
-  hacking_ends: "Oct 20, 2019 10:30:00"
+  hacking_begins: "July 31, 2020 24:00:00"
+  hacking_ends: "August 2, 2020 10:30:00"
 # List all codes here which can be redeemed on Dashboard to grant permissions
 # This is useful for judges and mentors who show up to the event and need an account
 # with more permissions, and can save time and effort of an organizer
 # Format is code:role granted
 codes:
-  panda2020mentor: mentor
-  panda2020admin: admin
+  hack412mentor: mentor
+  hack412admin: admin
